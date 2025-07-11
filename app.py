@@ -7,7 +7,7 @@ import pickle
 
 ## loading the trained model
 
-model=tf.keras.models.load_model('churn_model.h5')
+model=tf.keras.models.load_model('churn_model.keras')
 
 ## load the endor and scalar
 with open('labelencoder_gender.pkl','rb') as file:
